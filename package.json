@@ -1,0 +1,23 @@
+{
+  "name": "first-practic-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoninaDanylchenko/first-practic-nodejs.git"
+  },
+  "author": "Antonina <antonina.ivanets@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoninaDanylchenko/first-practic-nodejs/issues"
+  },
+  "homepage": "https://github.com/AntoninaDanylchenko/first-practic-nodejs#readme",
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
