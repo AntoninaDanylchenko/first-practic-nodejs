@@ -53,7 +53,7 @@ const updateTask = async (id, title, completed) => {
         completed;
     }
     await fs.writeFile(tasksPath, JSON.stringify(tasks, null, 4));
-    return newTask;
+    return tasks.find((item) => String(item.id) === String(id));
   } catch (er) {
     console.log(er.message);
   }
